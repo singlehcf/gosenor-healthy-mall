@@ -1,0 +1,32 @@
+server:
+  port: 9001
+spring:
+  application:
+  name: healthy-user-service
+  #数据库配置
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://121.199.42.235:3306/healthy_mall_user?useUnicode=true&characterEncoding=utf-8&useSSL=false&serverTimezone=Asia/Shanghai
+    username: root
+    password: abc123456
+  redis:
+    host: 121.199.42.235
+    password: 123456
+    port: 8000
+  mail:
+    host: smtp.126.com
+    username: hcf2lss@126.com
+    password: RQRIIVFRXVCAWWMU
+    from: hcf2lss@126.com # 发送邮件的地址，和上面username一致
+    properties.mail.smtp.starttls.enable: true
+    properties.mail.smtp.starttls.required: true
+    properties.mail.smtp.ssl.enable: true
+    default-encoding: utf-8
+#配置plus打印sql⽇志
+mybatis-plus:
+  configuration:
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+  #设置⽇志级别,ERROR/WARN/INFO/DEBUG,默认是INFO以上才显示
+logging:
+  level:
+    root: INFO
