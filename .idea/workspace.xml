@@ -1,7 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e38215f2-cee9-4f14-b255-6436665c36f5" name="Default Changelist" comment="" />
+    <list default="true" id="e38215f2-cee9-4f14-b255-6436665c36f5" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/gosenor-product-service/src/main/java/com/gosenor/ProductApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gosenor-product-service/src/main/java/com/gosenor/mapper/BannerMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gosenor-product-service/src/main/java/com/gosenor/mapper/ProductMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gosenor-product-service/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gosenor-coupon-service/src/main/java/com/gosenor/config/InterceptorConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/gosenor-coupon-service/src/main/java/com/gosenor/config/InterceptorConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gosenor-coupon-service/src/main/java/com/gosenor/controller/CouponRecordController.java" beforeDir="false" afterPath="$PROJECT_DIR$/gosenor-coupon-service/src/main/java/com/gosenor/controller/CouponRecordController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gosenor-coupon-service/src/main/java/com/gosenor/service/CouponRecordService.java" beforeDir="false" afterPath="$PROJECT_DIR$/gosenor-coupon-service/src/main/java/com/gosenor/service/CouponRecordService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gosenor-coupon-service/src/main/java/com/gosenor/service/impl/CouponRecordServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/gosenor-coupon-service/src/main/java/com/gosenor/service/impl/CouponRecordServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gosenor-coupon-service/src/main/java/com/gosenor/vo/CouponRecordVO.java" beforeDir="false" afterPath="$PROJECT_DIR$/gosenor-coupon-service/src/main/java/com/gosenor/vo/CouponRecordVO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gosenor-coupon-service/target/classes/com/gosenor/CouponApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/gosenor-coupon-service/target/classes/com/gosenor/CouponApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gosenor-coupon-service/target/classes/com/gosenor/config/InterceptorConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/gosenor-coupon-service/target/classes/com/gosenor/config/InterceptorConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gosenor-coupon-service/target/classes/com/gosenor/service/impl/CouponServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/gosenor-coupon-service/target/classes/com/gosenor/service/impl/CouponServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gosenor-product-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/gosenor-product-service/pom.xml" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,6 +46,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
@@ -40,36 +58,39 @@
     </option>
   </component>
   <component name="ProjectId" id="1vYkcGweU9OmnOndRU521cYuKFp" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="RequestMappingsPanelOrder0" value="0" />
     <property name="RequestMappingsPanelOrder1" value="1" />
     <property name="RequestMappingsPanelWidth0" value="75" />
     <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/gosenor-product-service/src/main/resources/mapper" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="H:\gxlaWorkSpace\gosenor-healthy-mall\gosenor-user-service\src\main\java\com\gosenor\controller" />
+    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="com.gosenor" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="H:\gxlaWorkSpace\gosenor-healthy-mall\gosenor-coupon-service\src\main\resources" />
-      <recent name="H:\gxlaWorkSpace\gosenor-healthy-mall\gosenor-coupon-service\src\main\java\com\gosenor\mapper" />
-      <recent name="H:\gxlaWorkSpace\gosenor-healthy-mall\gosenor-coupon-service\src\main\resources\mapper" />
-      <recent name="H:\gxlaWorkSpace\gosenor-healthy-mall\gosenor-coupon-service\src\main\java\com\gosenor\model" />
-      <recent name="H:\gxlaWorkSpace\gosenor-healthy-mall\gosenor-user-service\src\main\resources\mapper" />
-    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="com.gosenor.config" />
       <recent name="com.gosenor.db" />
+      <recent name="com.gosenor" />
+      <recent name="com.gosenor.config" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="H:\gxlaWorkSpace\gosenor-healthy-mall\gosenor-user-service\src\main\java\com\gosenor\controller" />
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="H:\gxlaWorkSpace\gosenor-healthy-mall\gosenor-product-service\src\main\resources\mapper" />
+      <recent name="H:\gxlaWorkSpace\gosenor-healthy-mall\gosenor-product-service\src\main\java\com\gosenor\mapper" />
+      <recent name="H:\gxlaWorkSpace\gosenor-healthy-mall\gosenor-product-service\src\main\java\com\gosenor\model" />
+      <recent name="H:\gxlaWorkSpace\gosenor-healthy-mall\gosenor-product-service\src\main\resources" />
+      <recent name="H:\gxlaWorkSpace\gosenor-healthy-mall\gosenor-coupon-service\src\main\resources" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -84,10 +105,23 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.UserApplication">
+  <component name="RunManager" selected="Spring Boot.ProductApplication">
     <configuration name="MyBatisPlusGenerator (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.gosenor.db.MyBatisPlusGenerator" />
       <module name="gosenor-coupon-service" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.gosenor.db.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MyBatisPlusGenerator (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.gosenor.db.MyBatisPlusGenerator" />
+      <module name="gosenor-product-service" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.gosenor.db.*" />
@@ -118,6 +152,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ProductApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="gosenor-product-service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.gosenor.ProductApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="UserApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="gosenor-user-service" />
       <extension name="coverage">
@@ -133,8 +174,9 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Spring Boot.UserApplication" />
+        <item itemvalue="Application.MyBatisPlusGenerator (2)" />
         <item itemvalue="Spring Boot.CouponApplication" />
+        <item itemvalue="Spring Boot.UserApplication" />
         <item itemvalue="Application.MyBatisPlusGenerator (1)" />
         <item itemvalue="Application.MyBatisPlusGenerator" />
       </list>
@@ -153,11 +195,22 @@
       <workItem from="1626746490215" duration="56036000" />
       <workItem from="1627262152060" duration="39320000" />
       <workItem from="1627866978859" duration="45474000" />
-      <workItem from="1628490536149" duration="13452000" />
+      <workItem from="1628490536149" duration="20776000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>

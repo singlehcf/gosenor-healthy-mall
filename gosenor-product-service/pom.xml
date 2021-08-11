@@ -12,5 +12,11 @@
     <groupId>com.gosenor</groupId>
     <artifactId>gosenor-product-service</artifactId>
 
-
+    <dependencies>
+        <dependency>
+            <groupId>com.gosenor</groupId>
+            <artifactId>gosenor-common</artifactId>
+            <version>1.0-SNAPSHOT</version>
+        </dependency>
+    </dependencies>
 </project>

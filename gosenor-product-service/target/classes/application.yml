@@ -1,0 +1,23 @@
+server:
+  port: 9003
+spring:
+  application:
+  name: healthy-product-service
+  #数据库配置
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://121.199.42.235:3306/healthy_mall_product?useUnicode=true&characterEncoding=utf-8&useSSL=false&serverTimezone=Asia/Shanghai
+    username: root
+    password: abc123456
+  redis:
+    host: 121.199.42.235
+    password: 123456
+    port: 8000
+#配置plus打印sql⽇志
+mybatis-plus:
+  configuration:
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+  #设置⽇志级别,ERROR/WARN/INFO/DEBUG,默认是INFO以上才显示
+logging:
+  level:
+    root: INFO
