@@ -8,8 +8,8 @@
         <result column="title" property="title" />
         <result column="cover_img" property="coverImg" />
         <result column="detail" property="detail" />
-        <result column="old_price" property="oldPrice" />
-        <result column="price" property="price" />
+        <result column="old_amount" property="oldAmount" />
+        <result column="amount" property="amount" />
         <result column="stock" property="stock" />
         <result column="create_time" property="createTime" />
         <result column="lock_stock" property="lockStock" />
@@ -17,7 +17,7 @@
 
     <!-- 通用查询结果列 -->
     <sql id="Base_Column_List">
-        id, title, cover_img, detail, old_price, price, stock, create_time, lock_stock
+        id, title, cover_img, detail, old_amount, amount, stock, create_time, lock_stock
     </sql>
 
 </mapper>

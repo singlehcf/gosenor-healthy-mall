@@ -36,13 +36,13 @@ public class ProductVO {
     /**
      * ⽼价格
      */
-    @JsonProperty("old_price")
-    private BigDecimal oldPrice;
+    @JsonProperty("old_amount")
+    private BigDecimal oldAmount;
 
     /**
      * 新价格
      */
-    private BigDecimal price;
+    private BigDecimal amount;
 
     /**
      * 库存
@@ -94,20 +94,20 @@ public class ProductVO {
         this.detail = detail;
     }
 
-    public BigDecimal getOldPrice() {
-        return oldPrice;
+    public BigDecimal getOldAmount() {
+        return oldAmount;
     }
 
-    public void setOldPrice(BigDecimal oldPrice) {
-        this.oldPrice = oldPrice;
+    public void setOldAmount(BigDecimal oldAmount) {
+        this.oldAmount = oldAmount;
     }
 
-    public BigDecimal getPrice() {
-        return price;
+    public BigDecimal getAmount() {
+        return amount;
     }
 
-    public void setPrice(BigDecimal price) {
-        this.price = price;
+    public void setAmount(BigDecimal amount) {
+        this.amount = amount;
     }
 
     public Integer getStock() {

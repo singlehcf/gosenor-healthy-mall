@@ -2,20 +2,24 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e38215f2-cee9-4f14-b255-6436665c36f5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/gosenor-product-service/src/main/java/com/gosenor/ProductApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gosenor-product-service/src/main/java/com/gosenor/mapper/BannerMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gosenor-product-service/src/main/java/com/gosenor/mapper/ProductMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gosenor-product-service/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gosenor-product-service/src/main/java/com/gosenor/service/impl/CartServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gosenor-coupon-service/src/main/java/com/gosenor/config/InterceptorConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/gosenor-coupon-service/src/main/java/com/gosenor/config/InterceptorConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gosenor-coupon-service/src/main/java/com/gosenor/controller/CouponRecordController.java" beforeDir="false" afterPath="$PROJECT_DIR$/gosenor-coupon-service/src/main/java/com/gosenor/controller/CouponRecordController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gosenor-coupon-service/src/main/java/com/gosenor/service/CouponRecordService.java" beforeDir="false" afterPath="$PROJECT_DIR$/gosenor-coupon-service/src/main/java/com/gosenor/service/CouponRecordService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gosenor-coupon-service/src/main/java/com/gosenor/service/impl/CouponRecordServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/gosenor-coupon-service/src/main/java/com/gosenor/service/impl/CouponRecordServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gosenor-coupon-service/src/main/java/com/gosenor/vo/CouponRecordVO.java" beforeDir="false" afterPath="$PROJECT_DIR$/gosenor-coupon-service/src/main/java/com/gosenor/vo/CouponRecordVO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gosenor-coupon-service/target/classes/com/gosenor/CouponApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/gosenor-coupon-service/target/classes/com/gosenor/CouponApplication.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gosenor-coupon-service/target/classes/com/gosenor/config/InterceptorConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/gosenor-coupon-service/target/classes/com/gosenor/config/InterceptorConfig.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gosenor-coupon-service/target/classes/com/gosenor/service/impl/CouponServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/gosenor-coupon-service/target/classes/com/gosenor/service/impl/CouponServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gosenor-product-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/gosenor-product-service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gosenor-common/src/main/java/com/gosenor/config/AppConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/gosenor-common/src/main/java/com/gosenor/config/AppConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gosenor-common/src/main/java/com/gosenor/constant/CacheKey.java" beforeDir="false" afterPath="$PROJECT_DIR$/gosenor-common/src/main/java/com/gosenor/constant/CacheKey.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gosenor-common/src/main/java/com/gosenor/utils/CommonUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/gosenor-common/src/main/java/com/gosenor/utils/CommonUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gosenor-common/target/classes/com/gosenor/config/AppConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/gosenor-common/target/classes/com/gosenor/config/AppConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gosenor-common/target/classes/com/gosenor/constant/CacheKey.class" beforeDir="false" afterPath="$PROJECT_DIR$/gosenor-common/target/classes/com/gosenor/constant/CacheKey.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gosenor-common/target/classes/com/gosenor/utils/CommonUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/gosenor-common/target/classes/com/gosenor/utils/CommonUtil.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gosenor-product-service/src/main/java/com/gosenor/model/ProductDO.java" beforeDir="false" afterPath="$PROJECT_DIR$/gosenor-product-service/src/main/java/com/gosenor/model/ProductDO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gosenor-product-service/src/main/java/com/gosenor/service/ProductService.java" beforeDir="false" afterPath="$PROJECT_DIR$/gosenor-product-service/src/main/java/com/gosenor/service/ProductService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gosenor-product-service/src/main/java/com/gosenor/service/impl/ProductServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/gosenor-product-service/src/main/java/com/gosenor/service/impl/ProductServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gosenor-product-service/src/main/java/com/gosenor/vo/ProductVO.java" beforeDir="false" afterPath="$PROJECT_DIR$/gosenor-product-service/src/main/java/com/gosenor/vo/ProductVO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gosenor-product-service/src/main/resources/mapper/ProductMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/gosenor-product-service/src/main/resources/mapper/ProductMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gosenor-product-service/target/classes/com/gosenor/model/ProductDO.class" beforeDir="false" afterPath="$PROJECT_DIR$/gosenor-product-service/target/classes/com/gosenor/model/ProductDO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gosenor-product-service/target/classes/com/gosenor/service/ProductService.class" beforeDir="false" afterPath="$PROJECT_DIR$/gosenor-product-service/target/classes/com/gosenor/service/ProductService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gosenor-product-service/target/classes/com/gosenor/service/impl/ProductServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/gosenor-product-service/target/classes/com/gosenor/service/impl/ProductServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gosenor-product-service/target/classes/com/gosenor/vo/ProductVO.class" beforeDir="false" afterPath="$PROJECT_DIR$/gosenor-product-service/target/classes/com/gosenor/vo/ProductVO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gosenor-product-service/target/classes/mapper/ProductMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/gosenor-product-service/target/classes/mapper/ProductMapper.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -81,9 +85,9 @@
       <recent name="com.gosenor" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.gosenor.config" />
       <recent name="com.gosenor.db" />
       <recent name="com.gosenor" />
-      <recent name="com.gosenor.config" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="H:\gxlaWorkSpace\gosenor-healthy-mall\gosenor-product-service\src\main\resources\mapper" />
@@ -174,8 +178,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.MyBatisPlusGenerator (2)" />
         <item itemvalue="Spring Boot.CouponApplication" />
+        <item itemvalue="Application.MyBatisPlusGenerator (2)" />
         <item itemvalue="Spring Boot.UserApplication" />
         <item itemvalue="Application.MyBatisPlusGenerator (1)" />
         <item itemvalue="Application.MyBatisPlusGenerator" />
@@ -195,7 +199,7 @@
       <workItem from="1626746490215" duration="56036000" />
       <workItem from="1627262152060" duration="39320000" />
       <workItem from="1627866978859" duration="45474000" />
-      <workItem from="1628490536149" duration="20776000" />
+      <workItem from="1628490536149" duration="32889000" />
     </task>
     <servers />
   </component>

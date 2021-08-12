@@ -13,6 +13,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import java.util.HashMap;
+import java.util.List;
 import java.util.Map;
 import java.util.stream.Collectors;
 
@@ -45,6 +46,13 @@ public class ProductServiceImpl implements ProductService {
         ProductDO productDO = productMapper.selectById(productId);
         ProductVO productVO = beanProcess(productDO);
         return productVO;
+    }
+
+    @Override
+    public List<ProductVO> findProductsByIds(List<Long> productIds) {
+        List<ProductDO> productDOList = productMapper.selectBatchIds(productIds);
+        List<ProductVO> productVOList = productDOList.stream().map(obj -> beanProcess(obj)).collect(Collectors.toList());
+        return productVOList;
     }
 
     private ProductVO beanProcess(ProductDO productDO){

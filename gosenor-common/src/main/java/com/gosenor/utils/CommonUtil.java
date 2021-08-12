@@ -134,10 +134,10 @@ public class CommonUtil {
     }
 
     public static void sendJsonMessage(HttpServletResponse response,Object object){
-        ObjectMapper objectMapper = new ObjectMapper();
+        //ObjectMapper objectMapper = new ObjectMapper();
         response.setContentType("application/json; charset=utf-8");
         try (PrintWriter printWriter = response.getWriter()){
-            printWriter.print(objectMapper.writeValueAsString(object));
+            printWriter.print(JsonUtil.transferToJson(object));
             response.flushBuffer();
         }catch (IOException e){
             log.warn("响应json数据给前端异常:{}",e);
