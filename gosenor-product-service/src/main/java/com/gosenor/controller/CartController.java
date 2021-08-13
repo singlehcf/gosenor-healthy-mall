@@ -11,6 +11,8 @@ import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
+import javax.validation.Valid;
+
 /**
  * @program: gosenor-healthy-mall
  * @description:
@@ -28,7 +30,7 @@ public class CartController {
 
     @ApiOperation(value = "添加到购物车",notes = "buyNum为追加数量")
     @PostMapping("add")
-    public JsonData addToCart( @ApiParam("购物项") @RequestBody  CartItemRequest cartItemRequest){
+    public JsonData addToCart( @ApiParam("购物项") @RequestBody @Valid CartItemRequest cartItemRequest){
         cartService.addToCart(cartItemRequest);
         return JsonData.buildSuccess();
     }
@@ -37,7 +39,7 @@ public class CartController {
 
     @ApiOperation("修改购物车数量")
     @PostMapping("change")
-    public JsonData changeItemNum( @ApiParam("购物项") @RequestBody CartItemRequest cartItemRequest){
+    public JsonData changeItemNum( @ApiParam("购物项") @RequestBody @Valid CartItemRequest cartItemRequest){
         cartService.changeItemNum(cartItemRequest);
         return JsonData.buildSuccess();
     }

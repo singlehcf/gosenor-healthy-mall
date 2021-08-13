@@ -70,5 +70,10 @@ public class JsonData<T> {
         return JsonData.buildCodeAndMsg(codeEnum.getCode(),codeEnum.getMsg());
     }
 
-
+    public boolean isSuccess(){
+        if (this.code == 200){
+            return true;
+        }
+        return false;
+    }
 }

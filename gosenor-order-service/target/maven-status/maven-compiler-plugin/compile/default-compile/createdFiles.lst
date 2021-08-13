@@ -1,0 +1,8 @@
+com\gosenor\mapper\ProductOrderItemMapper.class
+com\gosenor\controller\ProductOrderController.class
+com\gosenor\service\ProductOrderService.class
+com\gosenor\model\ProductOrderItemDO.class
+com\gosenor\service\impl\ProductOrderServiceImpl.class
+com\gosenor\mapper\ProductOrderMapper.class
+com\gosenor\request\ConfirmOrderRequest.class
+com\gosenor\model\ProductOrderDO.class
