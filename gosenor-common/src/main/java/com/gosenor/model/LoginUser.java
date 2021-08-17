@@ -1,8 +1,10 @@
 package com.gosenor.model;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
+import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
+import lombok.NoArgsConstructor;
 
 /**
  * @program: gosenor-healthy-mall
@@ -11,6 +13,8 @@ import lombok.Data;
  * @create: 2021-07-27 14:00
  */
 @Data
+@NoArgsConstructor
+@AllArgsConstructor
 @Builder
 public class LoginUser {
     /**

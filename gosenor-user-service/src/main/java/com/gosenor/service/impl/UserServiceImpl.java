@@ -3,9 +3,11 @@ package com.gosenor.service.impl;
 import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
 import com.gosenor.enums.BizCodeEnum;
 import com.gosenor.enums.SendCodeEnum;
+import com.gosenor.feign.CouponFeignService;
 import com.gosenor.mapper.UserMapper;
 import com.gosenor.model.LoginUser;
 import com.gosenor.model.UserDO;
+import com.gosenor.request.NewUserCouponRequest;
 import com.gosenor.request.UserLoginRequest;
 import com.gosenor.request.UserRegisterRequest;
 import com.gosenor.service.NotifyService;
@@ -20,6 +22,8 @@ import org.apache.commons.lang3.StringUtils;
 import org.springframework.beans.BeanUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Propagation;
+import org.springframework.transaction.annotation.Transactional;
 
 import java.util.Date;
 import java.util.List;
@@ -38,6 +42,9 @@ public class UserServiceImpl implements UserService {
 
     @Autowired
     private UserMapper userMapper;
+
+    @Autowired
+    private CouponFeignService couponFeignService;
 
     @Override
     public JsonData register(UserRegisterRequest registerRequest) {
@@ -132,7 +139,11 @@ public class UserServiceImpl implements UserService {
      * @param userDO
      */
     private void userRegisterInitTask(UserDO userDO) {
-
+        NewUserCouponRequest newUserCouponRequest = new NewUserCouponRequest();
+        newUserCouponRequest.setUserId(userDO.getId());
+        newUserCouponRequest.setName(userDO.getName());
+        JsonData jsonData = couponFeignService.addNewUserCoupon(newUserCouponRequest);
+        log.info("发放新用户注册优惠券：{},结果:{}",newUserCouponRequest.toString(),jsonData.toString());
     }
 
 }

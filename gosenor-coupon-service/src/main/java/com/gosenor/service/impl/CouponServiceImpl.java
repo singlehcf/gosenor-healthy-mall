@@ -12,6 +12,7 @@ import com.gosenor.mapper.CouponRecordMapper;
 import com.gosenor.model.CouponDO;
 import com.gosenor.model.CouponRecordDO;
 import com.gosenor.model.LoginUser;
+import com.gosenor.request.NewUserCouponRequest;
 import com.gosenor.service.CouponService;
 import com.gosenor.utils.CommonUtil;
 import com.gosenor.utils.JsonData;
@@ -27,6 +28,7 @@ import org.springframework.transaction.annotation.Transactional;
 
 import java.util.Date;
 import java.util.HashMap;
+import java.util.List;
 import java.util.Map;
 import java.util.stream.Collectors;
 
@@ -121,6 +123,28 @@ public class CouponServiceImpl implements CouponService {
         return JsonData.buildSuccess();
     }
 
+    /**
+     * 用户微服务调用的时候，没传递token
+     * 本地直接调用发放优惠券的方法，需要构造一个登录用户存储在threadlocal
+     * @param newUserCouponRequest
+     * @return
+     */
+    @Transactional(rollbackFor=Exception.class,propagation=Propagation.REQUIRED)
+    @Override
+    public JsonData initNewUserCoupon(NewUserCouponRequest newUserCouponRequest) {
+        LoginUser loginUser = LoginUser.builder().id(newUserCouponRequest.getUserId()).name(newUserCouponRequest.getName()).build();
+        LoginInterceptor.threadLocal.set(loginUser);
+
+        List<CouponDO> couponDOList = couponMapper.selectList(new QueryWrapper<CouponDO>()
+                .eq("category",CouponEnum.CouponCategoryEnum.NEW_USER.getCategory()));
+        //获取所有注册活动
+        for(CouponDO couponDO : couponDOList){
+            //幂等操作，调用需要加锁
+            this.receiveCoupon(couponDO.getId(),CouponEnum.CouponCategoryEnum.NEW_USER.getCategory());
+        }
+        return JsonData.buildSuccess();
+    }
+
     private void checkCoupon(CouponDO couponDO, Long userId) {
         if (couponDO == null || userId == null){
             throw new BizException(BizCodeEnum.COUPON_NO_EXITS);
@@ -128,6 +152,10 @@ public class CouponServiceImpl implements CouponService {
         //判断库存
         if (couponDO.getStock() <= 0){
             throw new BizException(BizCodeEnum.COUPON_NO_STOCK);
+        }
+        //判断是否是否发布状态
+        if(!couponDO.getPublish().equals(CouponEnum.CouponPublishEnum.PUBLISH.name())){
+            throw new BizException(BizCodeEnum.COUPON_GET_FAIL);
         }
         //判断时间是否在有效期
         long nowTime = CommonUtil.getCurrentTimestamp();

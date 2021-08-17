@@ -1,6 +1,7 @@
 package com.gosenor.service;
 
 import com.gosenor.enums.CouponEnum;
+import com.gosenor.request.NewUserCouponRequest;
 import com.gosenor.utils.JsonData;
 
 import java.util.Map;
@@ -22,4 +23,7 @@ public interface CouponService {
      * @return
      */
     public JsonData receiveCoupon(long couponId,String couponCategory);
+
+
+    JsonData initNewUserCoupon(NewUserCouponRequest newUserCouponRequest);
 }

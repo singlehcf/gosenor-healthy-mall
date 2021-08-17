@@ -48,6 +48,7 @@ public class ExceptionHandle {
                 .collect(Collectors.toList());
         return JsonData.buildError(collect.toString());
     }
+
     // <2> 处理 json 请求体调用接口校验失败抛出的异常
     @ExceptionHandler(MethodArgumentNotValidException.class)
     @ResponseBody
@@ -58,6 +59,7 @@ public class ExceptionHandle {
                 .collect(Collectors.toList());
         return JsonData.buildError(collect.toString());
     }
+
     // <3> 处理单个参数校验失败抛出的异常
     @ExceptionHandler(ConstraintViolationException.class)
     @ResponseBody

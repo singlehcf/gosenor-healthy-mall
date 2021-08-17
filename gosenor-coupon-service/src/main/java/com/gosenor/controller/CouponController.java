@@ -1,6 +1,7 @@
 package com.gosenor.controller;
 
 import com.gosenor.enums.CouponEnum;
+import com.gosenor.request.NewUserCouponRequest;
 import com.gosenor.service.CouponService;
 import com.gosenor.utils.JsonData;
 import io.swagger.annotations.Api;
@@ -40,6 +41,19 @@ public class CouponController {
     @GetMapping("/receive/promotion/{coupon_id}")
     public JsonData receivePromotionCoupon(@ApiParam(value = "优惠券id",required = true) @PathVariable("coupon_id")long couponId){
         JsonData jsonData = couponService.receiveCoupon(couponId, CouponEnum.CouponCategoryEnum.PROMOTION.getCategory());
+
+        return jsonData;
+    }
+
+    /**
+     * 新用户注册发放优惠券接口
+     * @return
+     */
+    @ApiOperation("RPC-新用户注册接口")
+    @PostMapping("/new_user_coupon")
+    public JsonData addNewUserCoupon( @ApiParam("用户对象") @RequestBody NewUserCouponRequest newUserCouponRequest ){
+
+        JsonData jsonData = couponService.initNewUserCoupon(newUserCouponRequest);
 
         return jsonData;
     }
