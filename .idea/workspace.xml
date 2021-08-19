@@ -4,38 +4,12 @@
     <list default="true" id="e38215f2-cee9-4f14-b255-6436665c36f5" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/gosenor-common/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/gosenor-common/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gosenor-common/src/main/java/com/gosenor/exception/ExceptionHandle.java" beforeDir="false" afterPath="$PROJECT_DIR$/gosenor-common/src/main/java/com/gosenor/exception/ExceptionHandle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gosenor-common/src/main/java/com/gosenor/model/LoginUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/gosenor-common/src/main/java/com/gosenor/model/LoginUser.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gosenor-common/target/classes/com/gosenor/exception/ExceptionHandle.class" beforeDir="false" afterPath="$PROJECT_DIR$/gosenor-common/target/classes/com/gosenor/exception/ExceptionHandle.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gosenor-common/target/classes/com/gosenor/model/LoginUser$LoginUserBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/gosenor-common/target/classes/com/gosenor/model/LoginUser$LoginUserBuilder.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gosenor-common/target/classes/com/gosenor/model/LoginUser.class" beforeDir="false" afterPath="$PROJECT_DIR$/gosenor-common/target/classes/com/gosenor/model/LoginUser.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gosenor-coupon-service/src/main/java/com/gosenor/CouponApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/gosenor-coupon-service/src/main/java/com/gosenor/CouponApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gosenor-coupon-service/src/main/java/com/gosenor/config/InterceptorConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/gosenor-coupon-service/src/main/java/com/gosenor/config/InterceptorConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gosenor-coupon-service/src/main/java/com/gosenor/controller/CouponController.java" beforeDir="false" afterPath="$PROJECT_DIR$/gosenor-coupon-service/src/main/java/com/gosenor/controller/CouponController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gosenor-coupon-service/src/main/java/com/gosenor/service/CouponService.java" beforeDir="false" afterPath="$PROJECT_DIR$/gosenor-coupon-service/src/main/java/com/gosenor/service/CouponService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gosenor-coupon-service/src/main/java/com/gosenor/service/impl/CouponServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/gosenor-coupon-service/src/main/java/com/gosenor/service/impl/CouponServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/gosenor-coupon-service/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/gosenor-coupon-service/src/main/resources/application.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/gosenor-coupon-service/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/gosenor-coupon-service/target/classes/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gosenor-coupon-service/target/classes/com/gosenor/CouponApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/gosenor-coupon-service/target/classes/com/gosenor/CouponApplication.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gosenor-coupon-service/target/classes/com/gosenor/config/InterceptorConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/gosenor-coupon-service/target/classes/com/gosenor/config/InterceptorConfig.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gosenor-coupon-service/target/classes/com/gosenor/controller/CouponController.class" beforeDir="false" afterPath="$PROJECT_DIR$/gosenor-coupon-service/target/classes/com/gosenor/controller/CouponController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gosenor-coupon-service/target/classes/com/gosenor/service/CouponService.class" beforeDir="false" afterPath="$PROJECT_DIR$/gosenor-coupon-service/target/classes/com/gosenor/service/CouponService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gosenor-coupon-service/target/classes/com/gosenor/service/impl/CouponServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/gosenor-coupon-service/target/classes/com/gosenor/service/impl/CouponServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gosenor-order-service/src/main/java/com/gosenor/OrderApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/gosenor-order-service/src/main/java/com/gosenor/OrderApplication.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/gosenor-order-service/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/gosenor-order-service/src/main/resources/application.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/gosenor-order-service/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/gosenor-order-service/target/classes/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gosenor-order-service/target/classes/com/gosenor/OrderApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/gosenor-order-service/target/classes/com/gosenor/OrderApplication.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gosenor-product-service/src/main/java/com/gosenor/ProductApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/gosenor-product-service/src/main/java/com/gosenor/ProductApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gosenor-product-service/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/gosenor-product-service/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gosenor-product-service/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/gosenor-product-service/target/classes/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gosenor-product-service/target/classes/com/gosenor/ProductApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/gosenor-product-service/target/classes/com/gosenor/ProductApplication.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gosenor-user-service/src/main/java/com/gosenor/UserApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/gosenor-user-service/src/main/java/com/gosenor/UserApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gosenor-user-service/src/main/java/com/gosenor/service/impl/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/gosenor-user-service/src/main/java/com/gosenor/service/impl/UserServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/gosenor-user-service/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/gosenor-user-service/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gosenor-user-service/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/gosenor-user-service/target/classes/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gosenor-user-service/target/classes/com/gosenor/UserApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/gosenor-user-service/target/classes/com/gosenor/UserApplication.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/gosenor-user-service/target/classes/com/gosenor/component/impl/MailServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/gosenor-user-service/target/classes/com/gosenor/component/impl/MailServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gosenor-user-service/target/classes/com/gosenor/service/impl/UserServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/gosenor-user-service/target/classes/com/gosenor/service/impl/UserServiceImpl.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -200,8 +174,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Spring Boot.CouponApplication" />
         <item itemvalue="Spring Boot.UserApplication" />
+        <item itemvalue="Spring Boot.CouponApplication" />
         <item itemvalue="Spring Boot.OrderApplication" />
         <item itemvalue="Application.MyBatisPlusGenerator (3)" />
         <item itemvalue="Application.MyBatisPlusGenerator (2)" />
@@ -222,7 +196,7 @@
       <workItem from="1627262152060" duration="39320000" />
       <workItem from="1627866978859" duration="45474000" />
       <workItem from="1628490536149" duration="47654000" />
-      <workItem from="1629081571555" duration="8711000" />
+      <workItem from="1629081571555" duration="16559000" />
     </task>
     <servers />
   </component>

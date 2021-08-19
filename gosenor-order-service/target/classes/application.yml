@@ -2,7 +2,7 @@ server:
   port: 9004
 spring:
   application:
-    name: healthy-coupon-order
+    name: healthy-order-server
   cloud:
     nacos:
       discovery:

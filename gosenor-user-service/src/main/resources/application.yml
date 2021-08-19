@@ -34,3 +34,10 @@ mybatis-plus:
 logging:
   level:
     root: INFO
+seata:
+  tx-service-group: ${spring.application.name}-group
+  service:
+    grouplist:
+      gosenor-healthy: 127.0.0.1:8091
+    vgroup-mapping:
+      healthy-user-service-group: gosenor-healthy
