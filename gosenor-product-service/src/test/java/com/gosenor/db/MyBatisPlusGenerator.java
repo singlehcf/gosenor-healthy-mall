@@ -70,7 +70,7 @@ public class MyBatisPlusGenerator {
                 .setRestControllerStyle(true)
         // ⽣成的表, ⽀持多表⼀起⽣成，以数组形式填写
                 //TODO TODO TODO TODO
-                .setInclude("banner","product");
+                .setInclude("product_task");
         //4. 包名策略配置
         PackageConfig pkConfig = new
                 PackageConfig();

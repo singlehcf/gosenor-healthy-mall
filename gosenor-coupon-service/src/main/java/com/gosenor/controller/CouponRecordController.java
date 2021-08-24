@@ -1,6 +1,7 @@
 package com.gosenor.controller;
 
 import com.gosenor.enums.BizCodeEnum;
+import com.gosenor.request.LockCouponRecordRequest;
 import com.gosenor.service.CouponRecordService;
 import com.gosenor.utils.JsonData;
 import com.gosenor.vo.CouponRecordVO;
@@ -49,4 +50,13 @@ public class CouponRecordController {
 
     }
 
+    @ApiOperation("rpc-锁定，优惠券记录")
+    @PostMapping("lock_records")
+    public JsonData lockCouponRecords(@ApiParam("锁定优惠券请求对象") @RequestBody LockCouponRecordRequest recordRequest){
+
+        JsonData jsonData = couponRecordService.lockCouponRecords(recordRequest);
+
+        return jsonData;
+
+    }
 }

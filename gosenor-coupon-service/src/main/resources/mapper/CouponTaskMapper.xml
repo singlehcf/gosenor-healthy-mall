@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.gosenor.mapper.CouponTaskMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.gosenor.model.CouponTaskDO">
+        <id column="id" property="id" />
+        <result column="coupon_record_id" property="couponRecordId" />
+        <result column="create_time" property="createTime" />
+        <result column="out_trade_no" property="outTradeNo" />
+        <result column="lock_state" property="lockState" />
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        id, coupon_record_id, create_time, out_trade_no, lock_state
+    </sql>
+    <sql id="Base_Column_List_NO_Id">
+       coupon_record_id, create_time, out_trade_no, lock_state
+    </sql>
+    <insert id="insertBeatch">
+        INSERT INTO coupon_task (<include refid="Base_Column_List_NO_Id"/>) VALUES
+        <foreach collection="couponTaskList" item="item" index="index" separator=",">
+            (
+            #{item.couponRecordId},
+            #{item.createTime},
+            #{item.outTradeNo},
+            #{item.lockState}
+            )
+        </foreach>
+    </insert>
+</mapper>

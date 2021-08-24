@@ -50,7 +50,7 @@ public class CouponEnum {
         OFFLINE
     }
 
-    public enum CouponStateEnum{
+    public enum CouponUseStateEnum{
         NEW,
         USED,
         EXPIRED;

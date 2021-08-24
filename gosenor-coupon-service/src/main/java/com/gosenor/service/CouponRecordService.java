@@ -1,5 +1,7 @@
 package com.gosenor.service;
 
+import com.gosenor.request.LockCouponRecordRequest;
+import com.gosenor.utils.JsonData;
 import com.gosenor.vo.CouponRecordVO;
 
 import java.util.Map;
@@ -19,4 +21,11 @@ public interface CouponRecordService {
      * @return
      */
     CouponRecordVO findUserCouponById(long recordId);
+
+    /**
+     * 锁定优惠卷记录
+     * @param recordRequest
+     * @return
+     */
+    JsonData lockCouponRecords(LockCouponRecordRequest recordRequest);
 }

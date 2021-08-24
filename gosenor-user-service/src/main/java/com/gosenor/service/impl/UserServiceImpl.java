@@ -3,6 +3,7 @@ package com.gosenor.service.impl;
 import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
 import com.gosenor.enums.BizCodeEnum;
 import com.gosenor.enums.SendCodeEnum;
+import com.gosenor.exception.BizException;
 import com.gosenor.feign.CouponFeignService;
 import com.gosenor.mapper.UserMapper;
 import com.gosenor.model.LoginUser;
@@ -47,6 +48,7 @@ public class UserServiceImpl implements UserService {
     private CouponFeignService couponFeignService;
 
     @Override
+    @Transactional(rollbackFor=Exception.class,propagation=Propagation.REQUIRED)
     public JsonData register(UserRegisterRequest registerRequest) {
         //验证验证码
         boolean checkCode = false;
@@ -74,6 +76,7 @@ public class UserServiceImpl implements UserService {
 
             //新用户注册成功，初始化信息，发放福利等 TODO
             userRegisterInitTask(userDO);
+            //int b = 1/0;
             return JsonData.buildSuccess();
         }else {
             return JsonData.buildResult(BizCodeEnum.ACCOUNT_REPEAT);

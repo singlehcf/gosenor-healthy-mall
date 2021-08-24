@@ -15,7 +15,7 @@ public enum BizCodeEnum {
      * 通用操作码
      */
     OPS_REPEAT(110001,"重复操作"),
-
+    NO_RARAM(110002,"参数为空"),
 
     /**
      * 购物车

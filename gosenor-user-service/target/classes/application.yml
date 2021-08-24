@@ -41,3 +41,6 @@ seata:
       gosenor-healthy: 127.0.0.1:8091
     vgroup-mapping:
       healthy-user-service-group: gosenor-healthy
+feign:
+  httpclient:
+    connection-timeout: 30000
