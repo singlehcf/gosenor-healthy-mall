@@ -4,26 +4,20 @@
     <list default="true" id="e38215f2-cee9-4f14-b255-6436665c36f5" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/gosenor-common/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/gosenor-common/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gosenor-common/src/main/java/com/gosenor/enums/BizCodeEnum.java" beforeDir="false" afterPath="$PROJECT_DIR$/gosenor-common/src/main/java/com/gosenor/enums/BizCodeEnum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gosenor-common/src/main/java/com/gosenor/enums/CouponEnum.java" beforeDir="false" afterPath="$PROJECT_DIR$/gosenor-common/src/main/java/com/gosenor/enums/CouponEnum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gosenor-coupon-service/src/main/java/com/gosenor/controller/CouponRecordController.java" beforeDir="false" afterPath="$PROJECT_DIR$/gosenor-coupon-service/src/main/java/com/gosenor/controller/CouponRecordController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gosenor-coupon-service/src/main/java/com/gosenor/mapper/CouponRecordMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/gosenor-coupon-service/src/main/java/com/gosenor/mapper/CouponRecordMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gosenor-coupon-service/src/main/java/com/gosenor/service/CouponRecordService.java" beforeDir="false" afterPath="$PROJECT_DIR$/gosenor-coupon-service/src/main/java/com/gosenor/service/CouponRecordService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gosenor-coupon-service/src/main/java/com/gosenor/service/impl/CouponRecordServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/gosenor-coupon-service/src/main/java/com/gosenor/service/impl/CouponRecordServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gosenor-common/target/classes/com/gosenor/enums/BizCodeEnum.class" beforeDir="false" afterPath="$PROJECT_DIR$/gosenor-common/target/classes/com/gosenor/enums/BizCodeEnum.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gosenor-common/target/classes/com/gosenor/enums/CouponEnum$CouponStateEnum.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gosenor-common/target/classes/com/gosenor/enums/CouponEnum.class" beforeDir="false" afterPath="$PROJECT_DIR$/gosenor-common/target/classes/com/gosenor/enums/CouponEnum.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gosenor-coupon-service/src/main/java/com/gosenor/service/impl/CouponServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/gosenor-coupon-service/src/main/java/com/gosenor/service/impl/CouponServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/gosenor-coupon-service/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/gosenor-coupon-service/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gosenor-coupon-service/src/main/resources/mapper/CouponRecordMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/gosenor-coupon-service/src/main/resources/mapper/CouponRecordMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gosenor-coupon-service/src/test/java/com/gosenor/db/MyBatisPlusGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/gosenor-coupon-service/src/test/java/com/gosenor/db/MyBatisPlusGenerator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/gosenor-coupon-service/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/gosenor-coupon-service/target/classes/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gosenor-coupon-service/target/test-classes/com/gosenor/db/MyBatisPlusGenerator.class" beforeDir="false" afterPath="$PROJECT_DIR$/gosenor-coupon-service/target/test-classes/com/gosenor/db/MyBatisPlusGenerator.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gosenor-order-service/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/gosenor-order-service/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gosenor-product-service/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/gosenor-product-service/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gosenor-product-service/src/test/java/com/gosenor/db/MyBatisPlusGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/gosenor-product-service/src/test/java/com/gosenor/db/MyBatisPlusGenerator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gosenor-product-service/target/test-classes/com/gosenor/db/MyBatisPlusGenerator.class" beforeDir="false" afterPath="$PROJECT_DIR$/gosenor-product-service/target/test-classes/com/gosenor/db/MyBatisPlusGenerator.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gosenor-user-service/src/main/java/com/gosenor/service/impl/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/gosenor-user-service/src/main/java/com/gosenor/service/impl/UserServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gosenor-user-service/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/gosenor-user-service/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gosenor-user-service/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/gosenor-user-service/target/classes/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gosenor-user-service/target/classes/com/gosenor/component/impl/MailServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/gosenor-user-service/target/classes/com/gosenor/component/impl/MailServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gosenor-user-service/target/classes/com/gosenor/service/impl/UserServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/gosenor-user-service/target/classes/com/gosenor/service/impl/UserServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gosenor-coupon-service/target/classes/com/gosenor/controller/CouponRecordController.class" beforeDir="false" afterPath="$PROJECT_DIR$/gosenor-coupon-service/target/classes/com/gosenor/controller/CouponRecordController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gosenor-coupon-service/target/classes/com/gosenor/mapper/CouponRecordMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/gosenor-coupon-service/target/classes/com/gosenor/mapper/CouponRecordMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gosenor-coupon-service/target/classes/com/gosenor/mapper/CouponTaskMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/gosenor-coupon-service/target/classes/com/gosenor/mapper/CouponTaskMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gosenor-coupon-service/target/classes/com/gosenor/service/CouponRecordService.class" beforeDir="false" afterPath="$PROJECT_DIR$/gosenor-coupon-service/target/classes/com/gosenor/service/CouponRecordService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gosenor-coupon-service/target/classes/com/gosenor/service/impl/CouponRecordServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/gosenor-coupon-service/target/classes/com/gosenor/service/impl/CouponRecordServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gosenor-coupon-service/target/classes/com/gosenor/service/impl/CouponServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/gosenor-coupon-service/target/classes/com/gosenor/service/impl/CouponServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gosenor-coupon-service/target/classes/mapper/CouponRecordMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/gosenor-coupon-service/target/classes/mapper/CouponRecordMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gosenor-coupon-service/target/classes/mapper/CouponTaskMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/gosenor-coupon-service/target/classes/mapper/CouponTaskMapper.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -75,7 +69,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/gosenor-product-service/src/main/resources/mapper" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../gosenor-mall" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -113,7 +107,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.CouponApplication">
+  <component name="RunManager" selected="JUnit.DemoApplicationTests.send">
     <configuration name="MyBatisPlusGenerator (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.gosenor.db.MyBatisPlusGenerator" />
       <module name="gosenor-product-service" />
@@ -140,6 +134,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="DemoApplicationTests.send" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="gosenor-coupon-service" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.gosenor.biz.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.gosenor.biz" />
+      <option name="MAIN_CLASS_NAME" value="com.gosenor.biz.DemoApplicationTests" />
+      <option name="METHOD_NAME" value="send" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="CouponApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="gosenor-coupon-service" />
       <extension name="coverage">
@@ -149,19 +159,6 @@
         </pattern>
       </extension>
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.gosenor.CouponApplication" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="OrderApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="gosenor-order-service" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.gosenor.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.gosenor.OrderApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -188,11 +185,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.DemoApplicationTests.send" />
         <item itemvalue="Spring Boot.CouponApplication" />
         <item itemvalue="Application.MyBatisPlusGenerator (1)" />
         <item itemvalue="Application.MyBatisPlusGenerator" />
         <item itemvalue="Spring Boot.UserApplication" />
-        <item itemvalue="Spring Boot.OrderApplication" />
       </list>
     </recent_temporary>
   </component>
@@ -211,7 +208,7 @@
       <workItem from="1627866978859" duration="45474000" />
       <workItem from="1628490536149" duration="47654000" />
       <workItem from="1629081571555" duration="23610000" />
-      <workItem from="1629681404681" duration="13860000" />
+      <workItem from="1629681404681" duration="19399000" />
     </task>
     <servers />
   </component>

@@ -107,7 +107,7 @@ public class CouponServiceImpl implements CouponService {
                 couponRecordDO.setCouponId(couponId);
                 couponRecordDO.setCreateTime(new Date());
                 couponRecordDO.setUserName(loginUser.getName());
-                couponRecordDO.setUseState(CouponEnum.CouponStateEnum.NEW.name());
+                couponRecordDO.setUseState(CouponEnum.CouponUseStateEnum.NEW.name());
                 //库存扣减成功才保存记录
                 couponRecordMapper.insert(couponRecordDO);
 

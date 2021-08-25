@@ -43,3 +43,18 @@ logging:
       #gosenor-healthy: 127.0.0.1:8091
     #vgroup-mapping:
       #healthy-coupon-service-group: gosenor-healthy
+
+
+mqconfig:
+  #延迟队列，不能被监听消费
+  coupon_release_delay_queue: coupon.release.delay.queue
+  #延迟队列的消息过期后转发的队列
+  coupon_release_queue: coupon.release.queue
+  #交换机
+  coupon_event_exchange: coupon.event.exchange
+  #进⼊延迟队列的路由key
+  coupon_release_delay_routing_key: coupon.release.delay.routing.key
+  #消息过期，进⼊释放死信队列的key
+  coupon_release_routing_key: coupon.release.routing.key
+  #消息过期时间,毫秒,测试改为15秒
+  ttl: 15000
