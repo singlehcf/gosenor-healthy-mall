@@ -29,4 +29,8 @@
             #{id}
         </foreach>
     </update>
+
+    <update id="updateUseState">
+        UPDATE coupon_record SET use_state = #{useState} WHERE id = #{couponRecordId}
+    </update>
 </mapper>

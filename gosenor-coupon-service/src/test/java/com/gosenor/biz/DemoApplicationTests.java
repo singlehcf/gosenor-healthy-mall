@@ -1,6 +1,9 @@
 package com.gosenor.biz;
 
 import com.gosenor.CouponApplication;
+import com.gosenor.feign.OrderFeignService;
+import com.gosenor.model.CouponRecordMessage;
+import com.gosenor.utils.JsonData;
 import lombok.extern.slf4j.Slf4j;
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -22,10 +25,16 @@ public class DemoApplicationTests {
     @Autowired
     private RabbitTemplate rabbitTemplate;
 
+    @Autowired
+    private OrderFeignService orderFeignService;
     @Test
     public void send(){
-
-        rabbitTemplate.convertAndSend("coupon.event.exchange","coupon.release.delay.routing.key","5qeqweqw");
+      /*  CouponRecordMessage couponRecordMessage = new CouponRecordMessage();
+        couponRecordMessage.setTaskId(1999L);
+        couponRecordMessage.setOutTradeNo(null);
+        rabbitTemplate.convertAndSend("coupon.event.exchange","coupon.release.delay.routing.key",couponRecordMessage);
+        log.info("优惠券锁定消息发送成功: {}",couponRecordMessage.toString());*/
+        //rabbitTemplate.convertAndSend("coupon.event.exchange","coupon.release.delay.routing.key","5qeqweqw");
 
     }
 }

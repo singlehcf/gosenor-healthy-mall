@@ -1,5 +1,6 @@
 package com.gosenor.controller;
 
+import com.gosenor.request.LockProductRequest;
 import com.gosenor.service.ProductService;
 import com.gosenor.utils.JsonData;
 import com.gosenor.vo.ProductVO;
@@ -48,5 +49,20 @@ public class ProductController {
         ProductVO productVO = productService.findDetailById(productId);
         return JsonData.buildSuccess(productVO);
     }
+
+    /**
+     * 商品库存锁定
+     * @return
+     */
+    @ApiOperation("商品库存锁定")
+    @PostMapping("lock_products")
+    public JsonData lockProducts(@ApiParam("商品库存锁定") @RequestBody LockProductRequest lockProductRequest){
+
+
+        JsonData jsonData = productService.lockProductStock(lockProductRequest);
+
+        return jsonData;
+    }
+
 
 }

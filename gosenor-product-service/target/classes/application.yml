@@ -7,6 +7,24 @@ spring:
     nacos:
       discovery:
         server-addr: 127.0.0.1:8848
+  rabbitmq:
+    host: 121.199.42.235
+    port: 5672
+    virtual-host: /
+    password: password
+    username: admin
+    #开启⼿动确认消息
+    listener:
+      simple:
+        retry:
+          ####开启消费者（程序出现异常的情况下会）进行重试
+          enabled: true
+          ####最大重试次数
+          max-attempts: 3
+          ####重试间隔时间
+          initial-interval: 10000
+
+        acknowledge-mode: manual
   #数据库配置
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
@@ -25,3 +43,17 @@ mybatis-plus:
 logging:
   level:
     root: INFO
+
+mqconfig:
+  #延迟队列，不能被监听消费
+  stock_release_delay_queue: stock.release.delay.queue
+  #延迟队列的消息过期后转发的队列
+  stock_release_queue: stock.release.queue
+  #交换机
+  stock_event_exchange: stock.event.exchange
+  #进⼊延迟队列的路由key
+  stock_release_delay_routing_key: stock.release.delay.routing.key
+  #消息过期，进⼊释放死信队列的key
+  stock_release_routing_key: stock.release.routing.key
+  #消息过期时间,毫秒,测试改为15秒
+  ttl: 15000

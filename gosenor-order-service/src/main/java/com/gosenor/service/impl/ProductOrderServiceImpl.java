@@ -1,9 +1,13 @@
 package com.gosenor.service.impl;
 
+import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
+import com.gosenor.mapper.ProductOrderMapper;
+import com.gosenor.model.ProductOrderDO;
 import com.gosenor.request.ConfirmOrderRequest;
 import com.gosenor.service.ProductOrderService;
 import com.gosenor.utils.JsonData;
 import lombok.extern.slf4j.Slf4j;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 /**
@@ -27,8 +31,21 @@ import org.springframework.stereotype.Service;
 @Service
 @Slf4j
 public class ProductOrderServiceImpl implements ProductOrderService {
+
+    @Autowired
+    private ProductOrderMapper productOrderMapper;
+
     @Override
     public JsonData confirmOrder(ConfirmOrderRequest orderRequest) {
         return null;
+    }
+
+    @Override
+    public String queryProductOrderState(String outTradeNo) {
+        ProductOrderDO productOrderDO = productOrderMapper.selectOne(new QueryWrapper<ProductOrderDO>().eq("out_trade_no",outTradeNo));
+        if (productOrderDO == null){
+            return "";
+        }
+        return productOrderDO.getState();
     }
 }

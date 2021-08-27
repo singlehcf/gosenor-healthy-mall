@@ -11,10 +11,7 @@ import io.swagger.annotations.ApiOperation;
 import io.swagger.annotations.ApiParam;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.web.bind.annotation.PostMapping;
-import org.springframework.web.bind.annotation.RequestBody;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
@@ -59,6 +56,13 @@ public class ProductOrderController {
         } else if(payType.equalsIgnoreCase(ProductOrderPayTypeEnum.WECHAT.name())){
             //微信支付 TODO
         }
+    }
+
+
+    @GetMapping("query_state")
+    public JsonData<String> queryProductOrderState(@RequestParam("out_trade_no") String outTradeNo){
+        String state = productOrderService.queryProductOrderState(outTradeNo);
+        return JsonData.buildSuccess(state);
     }
 
     private void writeData(HttpServletResponse response, JsonData jsonData) {

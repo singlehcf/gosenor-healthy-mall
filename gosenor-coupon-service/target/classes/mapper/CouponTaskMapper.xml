@@ -18,7 +18,7 @@
     <sql id="Base_Column_List_NO_Id">
        coupon_record_id, create_time, out_trade_no, lock_state
     </sql>
-    <insert id="insertBeatch">
+    <insert id="insertBeatch" parameterType="java.util.List" useGeneratedKeys="true" keyProperty="id">
         INSERT INTO coupon_task (<include refid="Base_Column_List_NO_Id"/>) VALUES
         <foreach collection="couponTaskList" item="item" index="index" separator=",">
             (

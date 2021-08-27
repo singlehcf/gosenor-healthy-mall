@@ -17,7 +17,15 @@ spring:
     #开启⼿动确认消息
     listener:
       simple:
-       acknowledge-mode: manual
+
+        acknowledge-mode: manual
+        retry:
+          ####开启消费者（程序出现异常的情况下会）进行重试
+          enabled: true
+          ####最大重试次数
+          max-attempts: 3
+          ####重试间隔时间
+          initial-interval: 10000
   #数据库配置
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver

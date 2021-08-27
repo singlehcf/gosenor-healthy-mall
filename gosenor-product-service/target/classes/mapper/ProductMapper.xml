@@ -20,4 +20,7 @@
         id, title, cover_img, detail, old_amount, amount, stock, create_time, lock_stock
     </sql>
 
+    <update id="lockProductStock">
+        UPDATE product SET lock_stock = #{buyNum} WHERE id = #{productId} AND stock - lock_stock <![CDATA[ >= ]]> #{buyNum}
+    </update>
 </mapper>

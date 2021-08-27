@@ -1,5 +1,6 @@
 package com.gosenor.service;
 
+import com.gosenor.model.CouponRecordMessage;
 import com.gosenor.request.LockCouponRecordRequest;
 import com.gosenor.utils.JsonData;
 import com.gosenor.vo.CouponRecordVO;
@@ -28,4 +29,11 @@ public interface CouponRecordService {
      * @return
      */
     JsonData lockCouponRecords(LockCouponRecordRequest recordRequest);
+
+    /**
+     * 恢复优惠卷
+     * @param recordMessage
+     * @return
+     */
+    boolean releaseCouponRecord(CouponRecordMessage recordMessage);
 }
