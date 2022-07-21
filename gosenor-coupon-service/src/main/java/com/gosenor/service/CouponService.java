@@ -24,6 +24,10 @@ public interface CouponService {
      */
     public JsonData receiveCoupon(long couponId,String couponCategory);
 
-
+    /**
+     * 新用户注册发放优惠券
+     * @param newUserCouponRequest
+     * @return
+     */
     JsonData initNewUserCoupon(NewUserCouponRequest newUserCouponRequest);
 }

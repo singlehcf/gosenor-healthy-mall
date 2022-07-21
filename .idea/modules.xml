@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/gosenor-common/gosenor-common.iml" filepath="$PROJECT_DIR$/gosenor-common/gosenor-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/gosenor-coupon-service/gosenor-coupon-service.iml" filepath="$PROJECT_DIR$/gosenor-coupon-service/gosenor-coupon-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/gosenor-gateway/gosenor-gateway.iml" filepath="$PROJECT_DIR$/gosenor-gateway/gosenor-gateway.iml" />
+      <module fileurl="file://$PROJECT_DIR$/gosenor-healthy-mall.iml" filepath="$PROJECT_DIR$/gosenor-healthy-mall.iml" />
+      <module fileurl="file://$PROJECT_DIR$/gosenor-order-service/gosenor-order-service.iml" filepath="$PROJECT_DIR$/gosenor-order-service/gosenor-order-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/gosenor-product-service/gosenor-product-service.iml" filepath="$PROJECT_DIR$/gosenor-product-service/gosenor-product-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/gosenor-user-service/gosenor-user-service.iml" filepath="$PROJECT_DIR$/gosenor-user-service/gosenor-user-service.iml" />
+    </modules>
+  </component>
+</project>

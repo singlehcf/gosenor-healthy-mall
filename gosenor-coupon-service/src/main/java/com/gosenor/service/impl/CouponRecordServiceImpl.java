@@ -113,6 +113,9 @@ public class CouponRecordServiceImpl implements CouponRecordService {
             return couponTaskDO;
         }).collect(Collectors.toList());
         int insertNum = couponTaskMapper.insertBeatch(couponTaskDOList);
+
+        log.info("优惠券记录锁定updateRows={}",updateNum);
+        log.info("新增优惠券记录task insertRows={}",insertNum);
         //投递定时任务
         if(lockCouponRecordIds.size() == updateNum && insertNum==updateNum){
             //发送延迟消息

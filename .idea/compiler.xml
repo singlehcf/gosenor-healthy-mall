@@ -14,5 +14,14 @@
         <module name="gosenor-product-service" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="gosenor-common" target="1.8" />
+      <module name="gosenor-coupon-service" target="1.8" />
+      <module name="gosenor-gateway" target="1.8" />
+      <module name="gosenor-healthy-mall" target="1.8" />
+      <module name="gosenor-order-service" target="1.8" />
+      <module name="gosenor-product-service" target="1.8" />
+      <module name="gosenor-user-service" target="1.8" />
+    </bytecodeTargetLevel>
   </component>
 </project>
